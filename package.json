@@ -5,7 +5,6 @@
   "main": "server/index.js",
   "scripts": {
     "dev": "nodemon --watch server server/index.js",
-
     "start": "node server/index.js"
   },
   "repository": {
@@ -17,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/elijahjudge/ExerciseProject/issues"
   },
-  "homepage": "https://github.com/elijahjudge/ExerciseProject#readme"
+  "homepage": "https://github.com/elijahjudge/ExerciseProject#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "buefy": "^0.9.3"
+  }
 }
