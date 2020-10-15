@@ -1,0 +1,21 @@
+{
+  "name": "exerciseproject",
+  "version": "1.0.0",
+  "description": "2020 web programming exercise project new",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "nodemon --watch server server/index.js",
+
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elijahjudge/ExerciseProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elijahjudge/ExerciseProject/issues"
+  },
+  "homepage": "https://github.com/elijahjudge/ExerciseProject#readme"
+}
