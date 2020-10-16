@@ -1,15 +1,14 @@
 <template>
   
-<section class="section">
-    <div class="container">
+ <div class = "">
 
-         <Nav />
+        <Nav />
+        <div class="container">
+        <router-view/>
+        
+        </div>
 
-    <router-view/>
-
-      
-    </div>
-  </section>
+  </div> 
 
 </template>
 

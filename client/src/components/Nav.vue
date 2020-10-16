@@ -16,8 +16,8 @@
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">       
 
-     <router-link to="/" class="navbar-item">Home</router-link>
-      <router-link to="/about" class="navbar-item">About</router-link>
+     <router-link to="/" class="navbar-item">Social</router-link>
+      <router-link to="/myexercises" class="navbar-item">My Progress</router-link>
 
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
@@ -45,12 +45,14 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
+           <router-link to="/signup" class="button is-primary">
+           <strong> Sign Up </strong>   
+           </router-link>
+
+            <router-link to="/login" class="button is-light">
+            Log in                
+           </router-link>
+
         </div>
       </div>
     </div>
