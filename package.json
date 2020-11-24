@@ -20,6 +20,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "buefy": "^0.9.3",
+    "i": "^0.3.6",
     "vue-router": "^3.4.6"
   }
 }
