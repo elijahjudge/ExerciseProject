@@ -5,6 +5,8 @@ import MyExercises from '../views/MyExercises.vue'
 import SignUp from '../views/SignUp.vue'
 import Login from '../views/Login.vue'
 import Admin from '../views/Admin.vue'
+import { modifyexercise } from '../models/modifyexercise'
+import Dashboard from "../views/Dashboard.vue";
 
 
 Vue.use(VueRouter)
@@ -15,6 +17,7 @@ const routes = [
   {   path: '/signup', name: 'signup', component: SignUp },
   {   path: '/login', name: 'login', component: Login },
   {   path: '/admin', name: 'admin', component: Admin },
+  {   path: "/dashboard", name: "dashboard", component: Dashboard },
 
   {
     path: '/about',
