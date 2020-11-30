@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "2020 web programming exercise project new",
   "main": "server/index.js",
+  "engines": {
+    "node": "12.19.0"
+  },
   "scripts": {
     "dev": "nodemon --watch server server/index.js",
     "start": "node server/index.js"
@@ -18,9 +21,17 @@
   },
   "homepage": "https://github.com/elijahjudge/ExerciseProject#readme",
   "dependencies": {
+    "dotenv": "8.2.0",
     "@fortawesome/fontawesome-free": "^5.15.1",
     "buefy": "^0.9.3",
     "i": "^0.3.6",
-    "vue-router": "^3.4.6"
+    "vue-router": "^3.4.6",
+    "bcrypt": "5.0.0",
+    "mysql": "2.18.1",
+    "express": "4.17.1"
+    
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
   }
 }

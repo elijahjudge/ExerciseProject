@@ -21,6 +21,10 @@
       <i class="fas fa-lock"></i>
     </span>
   </p>
+<br>
+  <button class="button is-primary " type="submit">
+                    Submit
+                  </button>
 </div>
 
   </div>
@@ -32,7 +36,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .field{
     
     margin-left: 300px;

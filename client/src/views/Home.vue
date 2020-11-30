@@ -1,39 +1,50 @@
 <template>
   
-  <div class="page">
-      <h2 class="title is-2 level-item">Social</h2>
 
-    <div class="columns">
+  <div class="homecontainer">
 
-        <div class="column is-two-thirds">
-          
-            <ExerciseCard /> <br>
-            <ExerciseCard /> <br>
-            <ExerciseCard /> <br>
-            <ExerciseCard /> <br>
-        </div>
 
-        <div class="column is-one-third" >
-            <Sidebar />
+
+      <div class ="colums">
+
+
+          <div class = "column">
+
+        <router-link to="/login" class="button is-primary">
+            <strong> Login </strong>   
+        </router-link>
 
         </div>
 
-    </div>
+          <div class = "column">
+
+        <router-link to="/register" class="button is-primary">
+            <strong> Register </strong>   
+        </router-link>
+          </div>
+
+      </div>
   </div>
-
 </template>
 
 <script>
-import Sidebar from "@/components/Sidebar";
-import ExerciseCard from "@/components/ExerciseCard";
-
-
 export default {
-  name: 'Home',
-  components: {
-    Sidebar, ExerciseCard
 
-  }
 }
 </script>
 
+<style>
+
+.homecontainer{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+
+      background-image: url("../assets/exercisepic.jpg");
+
+  
+}
+
+
+</style>

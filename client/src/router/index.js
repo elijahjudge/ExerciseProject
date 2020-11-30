@@ -5,8 +5,10 @@ import MyExercises from '../views/MyExercises.vue'
 import SignUp from '../views/SignUp.vue'
 import Login from '../views/Login.vue'
 import Admin from '../views/Admin.vue'
+import Schedule from '../views/Schedule.vue'
 import { modifyexercise } from '../models/modifyexercise'
 import Dashboard from "../views/Dashboard.vue";
+import Register from "../views/Register.vue";
 
 
 Vue.use(VueRouter)
@@ -17,7 +19,9 @@ const routes = [
   {   path: '/signup', name: 'signup', component: SignUp },
   {   path: '/login', name: 'login', component: Login },
   {   path: '/admin', name: 'admin', component: Admin },
+  {   path: '/schedule', name: 'schedule', component: Schedule },
   {   path: "/dashboard", name: "dashboard", component: Dashboard },
+  {   path: "/register", name: "register", component: Register },
 
   {
     path: '/about',
